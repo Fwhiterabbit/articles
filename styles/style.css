@@ -68,3 +68,17 @@ p {
     font-weight: 500;
     text-transform: uppercase;
 }
+
+.top-right-box2 {
+    position: absolute;
+    background-color: whitesmoke;
+    width: 220px;
+    height: 300px;
+    left: 400px;
+    opacity: 0.9;
+    top: 52.5rem;
+}
+
+#text2 {
+
+}
