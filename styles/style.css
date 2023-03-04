@@ -32,6 +32,11 @@ h2 {
     text-align: center;
 }
 
+#spacex {
+    font-size: 50px;
+    text-align: center;
+}
+
 p {
     font-size: 20px;
     font-style: italic;
@@ -56,21 +61,24 @@ p {
     margin-right: auto;
 }
 
+.spacex-img {
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Text */
 
 .top-right-box {
     position: absolute;
     top: 250px;
-
     background-color: whitesmoke;
-
     width: 220px;
     height: 430px;
-
     right: 300px;
-
     opacity: 0.9;
-
+    border-radius: 5px;
 }
 
 #text1 {
@@ -90,6 +98,7 @@ p {
     left: 280px;
     opacity: 0.9;
     top: 59rem;
+    border-radius: 5px;
 }
 
 #text2 {
@@ -98,5 +107,24 @@ p {
     color: black;
     text-align: center;
     font-weight: 500;
+    text-transform: uppercase;
+}
+
+.top-right-box3 {
+    position: absolute;
+    background-color: whitesmoke;
+    width: 460px;
+    height: 320px;
+    top: 109.5rem;
+    opacity: 0.8;
+    right: 280px;
+    border-radius: 5px;
+}
+
+#text3 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    font-weight: 400;
     text-transform: uppercase;
 }
